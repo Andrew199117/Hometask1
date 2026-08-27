@@ -1,5 +1,5 @@
 {
-  "name": "hometask1",
+  "name": "hw-lesson-01",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
@@ -8,8 +8,9 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "tsx index.ts",
-    "dev": "tsx --watch index.ts"
+    "typecheck": "tsc --noEmit",
+    "start":"tsx index.ts",
+    "dev":"tsx --watch index.ts"
   },
   "devDependencies": {
     "tsx": "^4.23.12",

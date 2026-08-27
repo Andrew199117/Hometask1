@@ -1,8 +1,8 @@
-//import { name } from './name.js';
-//import { age } from './age.js';
-//import { course } from './course.js';
+//import { name } from './name';
+//import { age } from './age';
+//import { course } from './course';
 //console.log(`Привет, я ${name}! Прохожу курс по ${course}, мне ${age} лет.`);
-import npx from './name.js';
-import JS from './course.js';
-import npm from './age.js';
+import npx from './name';
+import JS from './course';
+import npm from './age';
 console.log(`Привет, я ${npx}! Прохожу курс по ${JS}, мне ${npm} лет.`);
